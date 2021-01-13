@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f3d459e173a34eb49d74779b1e7f5dcc" Name="Diagram1">
+        <EntityTypeShape EntityType="GeneralInsuranceModel.ADMIN" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GeneralInsuranceModel.CLAIM" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GeneralInsuranceModel.INSURANCE" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GeneralInsuranceModel.MOTOR" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GeneralInsuranceModel.Transaction" Width="1.5" PointX="3" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GeneralInsuranceModel.USER" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <AssociationConnector Association="GeneralInsuranceModel.FK__CLAIM__Insurance__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="GeneralInsuranceModel.FK__CLAIM__UserId__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="GeneralInsuranceModel.FK__INSURANCE__Motor__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="GeneralInsuranceModel.FK__INSURANCE__UserI__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="GeneralInsuranceModel.FK__MOTOR__UserId__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="GeneralInsuranceModel.FK__Transacti__UserI__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
